@@ -1,0 +1,26 @@
+{
+  "name": "lambda-muhammara",
+  "version": "1.0.0",
+  "description": "Muhammara 1.8.0binaries that can be used in Lambda that were built on Node 14.17.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CherryCircle/lambda-muhammara.git"
+  },
+  "main": "install.js",
+  "scripts": {
+    "preinstall": "npm install extract-zip",
+    "install": "node install.js"
+  },
+  "keywords": [
+    "lambda-muhammara",
+    "muhammara"
+  ],
+  "readmeFilename": "README.md",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "dependencies": {
+    "extract-zip": "^2.0.1"
+  },
+  "engines": {
+    "node": ">= 14.17.0"
+  }
+}
