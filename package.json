@@ -16,7 +16,7 @@
     "muhammara"
   ],
   "readmeFilename": "README.md",
-  "license": "GNU GENERAL PUBLIC LICENSE",
+  "license": "MIT",
   "dependencies": {
     "extract-zip": "^2.0.1"
   },
