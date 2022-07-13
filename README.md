@@ -13,4 +13,5 @@ And then deploy your lambda function as you would normally.
 
 # Version history:
 1. Use Version1 for AWS Lambda Node 14.17.0+
+
 2.5 Updated for Muhamara 2.5 (still using AWS Lambda Node 14.17.0)
