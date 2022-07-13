@@ -1,7 +1,7 @@
 {
   "name": "lambda-muhammara",
-  "version": "1.0.0",
-  "description": "Muhammara 1.8.0binaries that can be used in Lambda that were built on Node 14.17.0",
+  "version": "2.5.0",
+  "description": "Muhammara 2.5.0 binaries that can be used in Lambda that were built on Node 14.17.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/CherryCircle/lambda-muhammara.git"
