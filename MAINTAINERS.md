@@ -10,7 +10,7 @@ Steps:
 1. Zip it up
     1. `cd binding/`
     1. `rm muhammara.node.zip` # Remove the old one, if it exists
-    1. `zip a muhammara.node.zip muhammara.node`
+    1. `zip muhammara.node.zip muhammara.node`
 1. Delete the unzipped version
     1. `rm muhammara.node`
 1. Update package.json with the new version info

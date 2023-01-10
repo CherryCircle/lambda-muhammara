@@ -10,7 +10,7 @@ async function main () {
 
   try {
     await extractZip(path.resolve(binPath), { dir: path.join(__dirname, "binding") });
-    console.log("MUhammara Lambda binaries unpacked successfully.");
+    console.log("Muhammara Lambda binaries unpacked successfully.");
   } catch (err) {
     throw(`unzipping failed with error ${err.message}`);
   }
