@@ -1,7 +1,7 @@
 {
   "name": "lambda-muhammara",
-  "version": "3.8.1",
-  "description": "Muhammara 3.8.0 binaries that can be used in Lambda that were built on Node 18.16.0",
+  "version": "3.8.16",
+  "description": "Muhammara 3.8.0 binaries that can be used in Lambda that were built on Node 16.x",
   "repository": {
     "type": "git",
     "url": "https://github.com/CherryCircle/lambda-muhammara.git"
@@ -22,6 +22,6 @@
     "muhammara": "^3.8.0"
   },
   "engines": {
-    "node": ">= 18.16.0"
+    "node": ">= 16.20.0"
   }
 }
