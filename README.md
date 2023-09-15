@@ -12,6 +12,14 @@ copy node_modules/lambda-muhammara/binding/muhammara.node node_modules/muhammara
 And then deploy your lambda function as you would normally.
 
 # Version history:
-1. Use Version1 for AWS Lambda Node 14.17.0+
+1. Use Version1 for AWS Lambda Node 14.17.X
 
-2.5 Updated for Muhamara 2.5 (still using AWS Lambda Node 14.17.0)
+2.5 Updated for Muhamara 2.5 (AWS Lambda Node 14.17.X)
+
+3.5 Updated for Muhamara 3.5 (AWS Lambda Node 14.17.X)
+
+3.8 Updated for Muhamara 3.8 (AWS Lambda Node 14.17.X)
+
+3.8.16 Updated for Muhamara 3.8 (AWS Lambda Node 16.20.X)
+
+4.0 Updated for Muhamara 4.0 (AWS Lambda Noe 16.20.X)
