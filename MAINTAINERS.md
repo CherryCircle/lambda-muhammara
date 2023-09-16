@@ -1,7 +1,7 @@
 # To Create A New Release
 
 Steps:
-1. On a debian docker image using the **version of node** you want. Then:
+1. On an Amazon Linux EC2 image using the **version of node** you want. Then:
     1. `npm install muhammara` # Install muhammara
     1. `vi package.json` # Update the muhammara version
     1. `npm install`
