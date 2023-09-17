@@ -1,12 +1,20 @@
 # To Create A New Release
 
 Steps:
-1. On an Amazon Linux EC2 image using the **version of node** you want. Then:
-    1. `npm install muhammara` # Install muhammara
-    1. `vi package.json` # Update the muhammara version
-    1. `npm install`
-1. Copy the muhammara.node file to this repo
-    1. `cp node_modules/muhammara/binding/muhammara.node binding/muhammara.node`
+1. Get a docker image that's using the **version of node** that you want.
+   1. `git clone https://github.com/aws/aws-lambda-base-images`
+   2. `git checkout nodejs16.x`             # or whatever version
+   3. docker build -t lambda-nodejs16 -f Dockerfile.nodejs16.x .
+1. Start the docker image and build muhammara on the docker image
+   1. `docker run -it lambda-nodejs16 bash --name lambda-temp` # in one window
+   1. `docker exec -it lambda-temp bash` # in another window to get a prompt
+   1.  `yum update -y && yum install git -y && yum install vi -y`
+   1. `git clone https://github.com/QbDVision-Inc/lambda-muhammara.git`
+   1. `vi package.json` # Update the muhammara version
+   1. `npm install` # Installs muhammara
+   1. `cp node_modules/muhammara/binding/muhammara.node /tmp`
+1. Back at yet another terminal on your local machine, copy the binary created back to your machine
+    1. `docker cp lambda-temp:/tmp/muhammara.node binding/muhammara.node`
 1. Zip it up
     1. `cd binding/`
     1. `rm muhammara.node.zip` # Remove the old one, if it exists
