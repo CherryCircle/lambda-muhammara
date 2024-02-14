@@ -22,4 +22,4 @@ And then deploy your lambda function as you would normally.
 
 3.8.16 Updated for Muhamara 3.8 (AWS Lambda Node 16.20.X)
 
-4.0 Updated for Muhamara 4.0 (AWS Lambda Noe 16.20.X)
+4.0 Updated for Muhamara 4.0 (AWS Lambda Node 16.20.X)
